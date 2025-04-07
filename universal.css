@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
+
+.instrument-serif-regular {
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .instrument-serif-regular-italic {
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+
+header{
+    background-color: #048A81;
+    padding: 0;
+    margin: 0;
+    height: 10vh;
+    width: auto;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #023B38;
+}
+
+#headerLeft > img{
+    width: 10vh;
+    background-color: #034F4B;
+    border-radius: 10px;
+    padding: 0.25vh;
+    margin: 1vh 1vw;
+}
+
+.navTarto{
+    float: right;
+    margin: 3vh 1vw;
+    padding: 17px 25px;
+    width: 180px;
+    height: 0.1vh;
+    background-color: #034F4B;
+}
+
+.navGombok{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0px;
+    font-size: 125%;
+    text-decoration: none;
+    color: white;
+}
+
+#kapcsolat{
+    margin: 1% 40% 0% 40%;
+    padding: 1%;
+}
+
+#telefon{
+    margin: 1% 30% 1% 30%;
+    padding: 1%;
+}
+
+#e-mail{
+    margin: 1% 20% 1% 20%;
+    padding: 1%;
+}
+
+footer{
+    height: 100%;
+    width: 100%;
+    background-color: #048A81;
+}
+
+footer p{
+    margin-top: 5%;
+    text-align: center;
+    font-size: large;
+    padding-top: 2%;
+    background-color: #034F4B;
+    color: white;
+}

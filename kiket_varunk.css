@@ -1,0 +1,120 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 3 / 6;}
+    .div2 { grid-area: 3 / 1 / 7 / 2; }
+    .div3 { grid-area: 7 / 1 / 8 / 6; }
+    .div4 { grid-area: 3 / 2 / 7 / 6; }
+
+#filterek{
+    background-color: #034F4B;
+    float: left;
+    height: 102%;
+    width: 100%;
+    color: white;
+}
+
+h2 + a{
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10%;
+    text-decoration: none;
+    padding: 1%;
+    color: white;
+    font-size: large;
+    background-color: #048A81;
+}
+
+a + a{
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10%;
+    text-decoration: none;
+    padding: 1%;
+    color: white;
+    font-size: large;
+    background-color: #048A81;
+}
+
+aside h2{
+    text-align: center;
+    background-color: #048A81;
+    padding: 5%;
+    margin: 15%;
+}
+
+#bevezeto{
+    padding: 1%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #048A81;
+    width: 50%;
+    text-align: center;
+}
+
+#udvozlo
+{
+    width: 100%;
+    height: 100%;
+}
+
+#jelentkezes{
+    text-align: center;
+    background-color: #048A81;
+    margin-bottom: 15%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 5%;
+    font-size: 200%;
+}
+
+#gemencrol{
+    height: 70%;
+    width: 100%;
+}
+
+#magunkrol{
+    height: 100%;
+    width: 100%;
+    margin-left: 50%;
+}
+
+.szoveg{
+    background-color: #048A81;
+    font-size: 200%;
+    padding-left: 3%;
+}
+
+#kep{
+    width: 52%;
+    height: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 24%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+#kiket_varunk{
+    padding: 3% 1% 0% 1%;
+    text-align: center;
+    height: 15%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 150%;
+    background-color: #048A81;
+}
