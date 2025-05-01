@@ -12,6 +12,7 @@
     font-style: italic;
   }
   
+/* Header */
 
 header{
     background-color: #048A81;
@@ -21,13 +22,77 @@ header{
     width: auto;
 }
 
+.navTarto{
+    float: right;
+    margin: 3vh 1vw;
+    padding: 17px 25px;
+    width: 12vw;
+    height: 0.1vh;
+    background-color: #034F4B;
+}
+
+.navGombok{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0px;
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: white;
+}
+
+#udvozlo
+{
+    width: 100%;
+    height: 100%;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+}
+
 body{
+    height: auto;
     margin: 0;
     padding: 0;
     font-family: "Instrument Serif", serif;
     font-weight: 400;
     font-style: normal;
     background-color: #023B38;
+    scroll-behavior: smooth;
+}
+
+/* Filterek */ 
+
+a + a{
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10%;
+    text-decoration: none;
+    padding: 5%;
+    color: white;
+    font-size: large;
+    background-color: #048A81;
+}
+
+aside h2{
+    text-align: center;
+    background-color: #048A81;
+    padding: 5%;
+    margin: 15%;
+}
+
+#bevezeto{
+    padding: 1%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #048A81;
+    width: 50%;
+    text-align: center;
 }
 
 #headerLeft > img{
@@ -38,51 +103,164 @@ body{
     margin: 1vh 1vw;
 }
 
-.navTarto{
-    float: right;
-    margin: 3vh 1vw;
-    padding: 17px 25px;
-    width: 180px;
-    height: 0.1vh;
-    background-color: #034F4B;
+/* Main section */
+
+.osszefogo{
+    display: flex;
+    flex-direction: row;
+    margin: 5vh 1vw;
 }
 
-.navGombok{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    line-height: 0px;
-    font-size: 125%;
-    text-decoration: none;
+.osszefogo > div{
+    margin: 0vh 5vw;
+    height: 100%;
+    padding: 25px;
+    width: 100%;
+}
+
+.osszefogo > img{
+    height: 50vh;
+    width: auto;
+    padding: 5%;
+    margin: auto auto;
+}
+
+.szoveg{
+    text-align: center;
+    background: rgb(4,138,129);
+    background: linear-gradient(0deg, rgba(4,138,129,1) 0%, rgb(0, 198, 185) 100%);
+    font-size: 175%;
+    padding: 5%;
+    margin: 1%;
+    width: 35%;
+}
+
+.osszefogoMiddler{
+    margin: 2vh auto;
+}
+
+p.osszefogoMiddler{
+    width: 75%;
+    height: 5%;
+    padding: 1%;
+    background: rgb(4,138,129);
+    background: linear-gradient(45deg, rgb(0, 33, 31) 0%, rgb(9, 100, 94) 100%);
+    color: rgb(111, 254, 223);
+}
+
+#filterek{
+    background-color: #034F4B;
+    height: auto;
+    width: 25%;
     color: white;
 }
 
-#kapcsolat{
-    margin: 1% 40% 0% 40%;
-    padding: 1%;
+aside div{
+    margin: 15vh 0;
 }
 
-#telefon{
-    margin: 1% 30% 1% 30%;
-    padding: 1%;
-}
-
-#e-mail{
-    margin: 1% 20% 1% 20%;
-    padding: 1%;
-}
-
-footer{
-    height: 100%;
-    width: 100%;
+#jelentkezes{
+    position: relative;
+    text-align: center;
     background-color: #048A81;
+    width: 50%;
+    margin: 15vh auto;
+    padding: 5%;
+    font-size: 200%;
+}
+
+.div4{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.div2{
+    display: flex;
+    flex-direction: row;
+}
+
+#bevezeto{
+    padding: 1%;
+    margin: 8vh auto;
+    background-color: #048A81;
+    width: 50%;
+    height: auto;
+    text-align: center;
+}
+
+.nagy_link{
+    text-align: center;
+    background-color: #048A81;
+    padding: 5%;
+    margin: 15%;
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+/* Footer */
+footer{
+    height: 20vh;
+    width: 100%;
+    background: rgb(4,138,129);
+    background: linear-gradient(145deg, rgba(4,138,129,1) 0%, rgba(0,83,77,1) 100%);
 }
 
 footer p{
-    margin-top: 5%;
+    line-height: 0px;
     text-align: center;
-    font-size: large;
-    padding-top: 2%;
-    background-color: #034F4B;
+    font-size: 30px;
     color: white;
+    margin: 5% 0;
 }
+
+#kapcsolatfelvetel{
+    width: 75%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, 10vh);
+}
+
+#kapcsolatfelvetel > div{
+    background-color: rgba(3, 79, 75, 0.5);
+    padding: 5%;
+}
+
+.grid_sec1 {
+    grid-row: span 2 / span 2;
+    border-right: black solid 5px;
+    border-left: black solid 5px;
+}
+
+.grid_sec1 > p{
+    margin: 8vh 0;
+}
+
+.grid_sec2 {
+    grid-column-start: 2;
+    border-right: black solid 5px;
+}
+
+.grid_sec3{
+    border-top: black solid 5px;
+    border-right: black solid 5px;
+}
+
+/* Header fix */ 
+@media only screen and (max-width: 1000px){
+    .navGombok{
+        font-size: 1.8vw;
+    }
+}
+
+/* MD */
+
+@media only screen and (max-width: 768px) {
+    .navTarto{
+        display: none;
+    }
+  }
