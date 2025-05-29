@@ -9,52 +9,64 @@
 </head>
 <body>
     <header>
-        <a href="index.html" id="headerLeft"><img src="images/Kedvenc Gemenc.png" alt="KedvencGemenc logó"></a>
-        
-        <div class="navTarto" onclick="location.href='mit_erdemes_hozni.html';" style="cursor: pointer;">
-            <a href="mit_erdemes_hozni.html" class="navGombok">Mit érdemes hozni?</a>
-        </div>
-        <div class="navTarto" onclick="location.href='kulonleges_turak.html';" style="cursor: pointer;">
-            <a href="kulonleges_turak.html" class="navGombok">Különleges túrák</a>
-        </div>
-        <div class="navTarto" onclick="location.href='utvonalak.html';" style="cursor: pointer;">
-            <a href="utvonalak.html" class="navGombok">Útvonalak</a>
-        </div>
-        <div class="navTarto" onclick="location.href='kiket_varunk.html';" style="cursor: pointer;">
-            <a href="kiket_varunk.html" class="navGombok">Kiket Várunk?</a>
-        </div>
+        <a href="index.html" class="headerLeft"><img src="images/Kedvenc Gemenc.png" alt="KedvencGemenc logó"></a>
+
+        <button class="hamburger" id="hamburgerMenu" aria-label="Menü" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="headerNav" id="headerNav">
+            <div class="navTarto" onclick="location.href='mit_erdemes_hozni.html';">
+                <a href="mit_erdemes_hozni.html" class="navGombok">Mit érdemes hozni?</a>
+            </div>
+            <div class="navTarto" onclick="location.href='kulonleges_turak.html';">
+                <a href="kulonleges_turak.html" class="navGombok">Különleges túrák</a>
+            </div>
+            <div class="navTarto" onclick="location.href='utvonalak.html';">
+                <a href="utvonalak.html" class="navGombok">Útvonalak</a>
+            </div>
+            <div class="navTarto" onclick="location.href='kiket_varunk.html';">
+                <a href="kiket_varunk.html" class="navGombok">Kiket Várunk?</a>
+            </div>
+        </nav>
     </header>
-        <div class="div1"> 
-            <img id="udvozlo" src="images/Üdvözlő.png" alt="Üdvözlő">
-        </div>
-        <div class="div2"> 
-            <aside id="filterek">
-                <a class="nagy_link" href="kiket_varunk.html">Kiket Várunk ?</a>
-                <div>
-                    <a class="nagy_link" href="utvonalak.html">Útvonalak</a>
-                    <a href="utvonalak.html">Vén-Duna</a>
-                    <a href="utvonalak.html">Rezéti-Duna</a>
-                    <a href="utvonalak.html">Szeremlei-Sugó</a>
-                    <a href="utvonalak.html">Ferenc-Tápcsatorna</a>
-                    <a href="utvonalak.html">Pörbölyi Titán</a>
-                </div>
-                <div>
+
+    <div class="div2">
+        <div id="filterek">
+            <a class="nagy_link" href="kiket_varunk.html">Kiket Várunk ?</a>
+            <div>
+                <a class="nagy_link" href="utvonalak.html">Útvonalak</a>
+                <a class="kis_link" href="utvonalak.html#ven_kep">Vén-Duna</a>
+                <a class="kis_link" href="utvonalak.html#rezeti_kep">Rezéti-Duna</a>
+                <a class="kis_link" href="utvonalak.html#sugo_kep">Szeremlei-Sugó</a>
+                <a class="kis_link" href="utvonalak.html#tapcsatorna_kep">Ferenc-Tápcsatorna</a>
+                <a class="kis_link" href="utvonalak.html#porboly_kep">Pörbölyi Titán</a>
+            </div>
+            <div>
                     <a class="nagy_link" href="kulonleges_turak.html">Különleges túrák</a>
-                    <a href="kulonleges_turak.html">Vadleső túra</a>
-                    <a href="kulonleges_turak.html">Szarvasbőgést hallgató túra</a>
-                    <a href="kulonleges_turak.html">Gasztro-, vízi túra</a>
+                    <a class="kis_link" href="kulonleges_turak.html#vadleso_kep">Vadleső túra</a>
+                    <a class="kis_link" href="kulonleges_turak.html#szarvas_kep">Szarvasbőgést hallgató túra</a>
+                    <a class="kis_link" href="kulonleges_turak.html#gasztro">Gasztro-, vízi túra</a>
                 </div>
                 <a class="nagy_link" href="mit_erdemes_hozni.html">Mit érdemes hozni ?</a>
-            </aside>
+        </div>
 
             <div class="div4">
-                <h2 id="bevezeto">Várunk mindenkit egy, vagy többnapos túráinkra áprilistól
-                    októberig, aki szeretne betekinteni a Gemenc csodálatos világába.
-                </h2>
-                    <div class="osszefogo">
-                        <img class="kepek" id="ven-duna" src="images/gemencről.JPG" alt="A gemenci erdő">
-
-                        <p id="gemencrol" class="szoveg">Gemencről
+                <div class="keressen">
+                    <div class="keresen_belso">
+                        <p>Várunk mindenkit egy, vagy többnapos túráinkra áprilistól
+                            októberig, aki szeretne betekinteni a Gemenc csodálatos világába.
+                        </p>
+                        <h2>Keressen Minket!</h2>
+                        <p><a href="tel:+36203170643">Telefon: +36 20 317 0643</a></p>
+                        <p><a href="mailto:kedvencgemenc@gmail.com">E-mail: kedvencgemenc@gmail.com</a></p>
+                    </div>
+                </div>
+                    <div id="ven-duna"  class="osszefogo">
+                        <div id="gemencrol" class="szoveg">
+                            <h1>Gemencről</h1>
                             <br><br>
                             Magyarország legnagyobb ártéri erdeje, egyben vizes élőhelye is,
                             különleges növény és állatvilággal. Egy „ezerarcú” csoda, amely
@@ -63,10 +75,11 @@
                             bejárására, de alacsony vízállásnál is olyan lehetőségeket tartogat,
                             amelyeket kihasználva élménygazdag tartalommal lehet megtölteni
                             a túrákat.
-                        </p>
+                        </div>
                     </div>
-                    <div class="osszefogo"> 
-                        <p class="szoveg" id="magunkrol">Magunkról: <br>
+                    <div id="turavezeto" class="osszefogo">
+                        <div class="szoveg" id="magunkrol">
+                            <h1>Magunkról </h1>
                             <br>
                             Aki hozzánk jön, az közvetlenül velem, azaz a túravezetővel fogja egyeztetni a programot.
                             <br><br>
@@ -80,30 +93,27 @@
                             Baja környéki vizeket, több mint 150 túrát vezettem már a Vén-
                             Dunán, Rezéti-Dunán, Ferenc tápcsatornán, Szeremlei-Sugovicán az
                             extrém alacsonytól a nagyon magas (árvíz szint) vízállásig.
-                        </p>
-                        <img class="kepek" id="turavezeto" src="images/Magunkról.JPG" alt="A túravezető kenuban"> 
+                        </div>
+
                     </div>
-                    <div id="jelentkezes">
-                        <h3>Itt tudsz jelentkezni a túrára</h3>
-                        <a id="urlap" href="https://docs.google.com/forms/d/e/1FAIpQLSesmDt4Ip9Vx149ukMGmTSsVkNvWVpET5lr7gn7NuEN7dtKGw/viewform?usp=sharing" target="_blank">Tovább az űrlapra</a>
-                    </div>
+
                 </div>
-                
+
         </div>
 
         <footer id="lablec">
-            <div id="kapcsolatfelvetel">
-                <div class="grid_sec1">
-                    <p>Kapcsolatfelvétel</p>
-                </div>
-                <div class="grid_sec2">
-                    <p>Telefon: +36 20 317 0643</p>
-                </div>
-                <div class="grid_sec3">
-                    <p>E-mail: kedvencgemenc@gmail.com</p>
-                </div>
+            <div id="jelentkezes">
+                <h3>Itt tudsz jelentkezni a túrára:</h3>
+                    <a id="urlap" href="https://docs.google.com/forms/d/e/1FAIpQLSesmDt4Ip9Vx149ukMGmTSsVkNvWVpET5lr7gn7NuEN7dtKGw/viewform?usp=sharing" target="_blank">Tovább az űrlapra</a>
             </div>
-        </footer> 
+            <div id="kapcsolatfelvetel">
+                    <h1>Kapcsolatfelvétel</h1>
+                    <h2>Telefon: +36 20 317 0643</h2>
 
+                    <h2>E-mail: kedvencgemenc@gmail.com</h2>
+
+            </div>
+        </footer>
+        <script src="home.js"></script>
 </body>
 </html>
