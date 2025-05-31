@@ -138,11 +138,11 @@ aside h2{
 
 /* Main section */
 
-.osszefogo{
+.osszefogo {
     position: relative;
     /*margin: 5vh 1vw; */
     margin: 20px 0px 20px 0px;
-    height: 600px;
+    /*height: 600px;*/
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -157,7 +157,7 @@ aside h2{
 }
 
 .osszefogo > img {
-    position: absolute;
+    /*position: absolute;*/
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -191,7 +191,6 @@ p.osszefogoMiddler{
     background-color: #048A81;
     margin: 0 auto;
     padding: 5%;
-    font-size: 200%;
 }
 .div2{
     display: flex;
@@ -276,7 +275,6 @@ a, a:link {
 
 /* Footer */
 footer{
-    height: 20vh;
     width: 100%;
     background: rgb(4,138,129);
     background: linear-gradient(145deg, rgba(4,138,129,1) 0%, rgba(0,83,77,1) 100%);
