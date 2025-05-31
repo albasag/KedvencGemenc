@@ -52,7 +52,6 @@ header{
     left: 0;
     color: white;
     font-size: 2em;
-    font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
     text-align: center;
     width: 100%;
@@ -74,7 +73,7 @@ header{
     justify-content: center;
     align-items: center;
     line-height: 0px;
-    font-size: 16px;
+    font-size: 18px;
     text-decoration: none;
     color: white;
 }
@@ -94,7 +93,7 @@ body{
     height: auto;
     margin: 0;
     padding: 0;
-    font-family: "Arial, Helvetica, sans-serif";
+    font-family: 'Instrument Sans', sans-serif;
     font-weight: 400;
     font-style: normal;
     background-color: #023B38;
@@ -344,7 +343,6 @@ footer p{
 /* Navigation for desktop */
 .headerNav {
     display: flex;
-    gap: 10px;
     align-items: center;
 }
 
@@ -354,7 +352,7 @@ footer p{
         display: none;
         flex-direction: column;
         position: absolute;
-        top: 60px;
+        top: 84px;
         left: 0;
         width: 100vw;
         background: linear-gradient(0deg, rgba(4, 138, 129, 0.8) 0%, rgb(0, 198, 185, 0.8) 100%);
@@ -388,7 +386,6 @@ footer p{
         margin: 10px auto;
         padding: 17px 0;
         text-align: center;
-        font-size: 20px;
     }
 
     .osszefogo > div {
