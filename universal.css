@@ -19,28 +19,24 @@
   overflow: hidden;
 }
 
-.instrument-serif-regular {
-    font-family: "Instrument Serif", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
 
-.instrument-serif-regular-italic {
-    font-family: "Instrument Serif", serif;
-    font-weight: 400;
-    font-style: italic;
-}
 /* Header */
 
 header{
     position: relative;
     width: 100%;
     height: 400px;
-    overflow: hidden;
     padding: 0;
     margin: 0;
 }
 
+.kedvenc_logo {
+    border: 1px solid #ffffff;
+    float: left;
+    margin: 20px;
+    padding: 10px;
+    background-color: #034F4Bcc;
+}
 
 .header-image {
     width: 100%;
@@ -70,6 +66,7 @@ header{
     width: 12vw;
     height: 0.1vh;
     background-color: #034F4Bcc;
+    border: 1px solid #ffffff;
 }
 
 .navGombok{
@@ -138,17 +135,6 @@ aside h2{
     background-color: #048A81;
     width: 50%;
     text-align: center;
-}
-
-.headerLeft{
-    float: left;
-    margin: 20px;
-    padding: 10px;
-    background-color: #034F4Bcc;
-}
-
-.headerLeft > img{
-    overflow: auto;
 }
 
 /* Main section */
@@ -317,6 +303,20 @@ footer p{
     padding: 5%;
 }
 
+.telefon_button {
+    background-color: #023B38;
+    padding: 20px;
+    font-size: x-large;
+    border: none;
+    border-radius: 25px; /* Makes the button rounded */
+    cursor: pointer;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3); /* Box shadow */
+}
+
+.telefon_button:hover {
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.5); /* Shadow on hover */
+}
+
 
 /* Hamburger menu button */
 .hamburger {
@@ -357,7 +357,7 @@ footer p{
         top: 60px;
         left: 0;
         width: 100vw;
-        background: #048A81;
+        background: linear-gradient(0deg, rgba(4, 138, 129, 0.8) 0%, rgb(0, 198, 185, 0.8) 100%);
         z-index: 1000;
         padding-bottom: 20px;
         border-bottom: 2px solid #ffffff;
@@ -411,6 +411,7 @@ footer p{
 
     .div2 {
         order:1;
+        z-index: 1;
     }
 
     .keressen {
@@ -420,5 +421,13 @@ footer p{
         color: white;
         padding: 0px;
         margin-top: 120px;
+    }
+
+    .kedvenc_logo {
+        border: 1px solid #ffffff;
+        float: left;
+        margin: 10px;
+        padding: 10px;
+        background-color: #034F4Bcc;
     }
 }
