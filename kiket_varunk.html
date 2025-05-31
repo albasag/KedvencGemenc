@@ -3,66 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kedvenc Gemenc: Túravezetés a Gemenci-erdőben</title>
+    <title>Kedvenc Gemenc: Túravezetés a Gemenci erdőben</title>
     <meta name="description" content="Fedezd fel a Gemenci-erdő varázslatos világát tapasztalt túravezetőinkkel! Személyre szabott túrák, természetfotózás, vadmegfigyelés és élménydús programok a Duna-Dráva Nemzeti Park szívében.">
-    <meta name="keywords" content="Gemenc, túravezetés, Gemenci-erdő, természetjárás, kirándulás, vadmegfigyelés, Duna-Dráva Nemzeti Park, ökoturizmus, természetfotózás">
+    <meta name="keywords" content="Gemenc, túravezetés, Gemenci erdő, természetjárás, kirándulás, vadmegfigyelés, Duna-Dráva Nemzeti Park, ökoturizmus, természetfotózás">
     <meta name="author" content="kedvencgemenc.hu">
     <meta property="og:title" content="Kedvenc Gemenc - Túravezetés a Gemenci-erdőben">
-    <meta property="og:description" content="Személyre szabott túrák és élmények a Gemenci-erdőben profi túravezetőkkel.">
+    <meta property="og:description" content="Személyre szabott túrák és élmények a Gemenci-erdőben profi túravezetővel.">
     <meta property="og:url" content="https://kedvencgemenc.hu">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://kedvencgemenc.hu/images/kedvencgemenc.png">
-    <link rel="stylesheet" href="universal.css">   
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-
+    <link rel="stylesheet" href="universal.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <a href="index.html" class="headerLeft"><img src="images/Kedvenc Gemenc.png" alt="KedvencGemenc logó"></a>
+    <header>        
+        <img src="images/udvozlo.png" alt="Gemenci túra" class="header-image">
+        <div class="header-text">
+            <a href="index.html" class="headerLeft"><img src="images/Kedvenc Gemenc.png" alt="KedvencGemenc logó"></a>
+            <button class="hamburger" id="hamburgerMenu" aria-label="Menü" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
 
-        <button class="hamburger" id="hamburgerMenu" aria-label="Menü" aria-expanded="false">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
-
-        <nav class="headerNav" id="headerNav">
-            <div class="navTarto" onclick="location.href='mit_erdemes_hozni.html';">
-                <a href="mit_erdemes_hozni.html" class="navGombok">Mit érdemes hozni?</a>
-            </div>
-            <div class="navTarto" onclick="location.href='kulonleges_turak.html';">
-                <a href="kulonleges_turak.html" class="navGombok">Különleges túrák</a>
-            </div>
-            <div class="navTarto" onclick="location.href='utvonalak.html';">
-                <a href="utvonalak.html" class="navGombok">Útvonalak</a>
-            </div>
-            <div class="navTarto" onclick="location.href='kiket_varunk.html';">
-                <a href="kiket_varunk.html" class="navGombok">Kiket Várunk?</a>
-            </div>
-        </nav>
+            <nav class="headerNav" id="headerNav">
+                <div class="navTarto" onclick="location.href='mit_erdemes_hozni.html';">
+                    <a href="mit_erdemes_hozni.html" class="navGombok">Mit&nbsp;érdemes&nbsp;hozni?</a>
+                </div>
+                <div class="navTarto" onclick="location.href='kulonleges_turak.html';">
+                    <a href="kulonleges_turak.html" class="navGombok">Különleges&nbsp;túrák</a>
+                </div>
+                <div class="navTarto" onclick="location.href='utvonalak.html';">
+                    <a href="utvonalak.html" class="navGombok">Túra&nbsp;útvonalak</a>
+                </div>
+                <div class="navTarto" onclick="location.href='kiket_varunk.html';">
+                    <a href="kiket_varunk.html" class="navGombok">Kiket&nbsp;várunk?</a>
+                </div>
+            </nav>
+        </div>
     </header>
 
     <div class="div2">
-       <div id="filterek">
+        <div id="filterek">
             <a class="nagy_link" href="kiket_varunk.html">Kiket Várunk ?</a>
             <div>
                 <a class="nagy_link" href="utvonalak.html">Útvonalak</a>
-                <a class="kis_link" href="utvonalak.html#ven_kep">Vén-Duna</a>
-                <a class="kis_link" href="utvonalak.html#rezeti_kep">Rezéti-Duna</a>
-                <a class="kis_link" href="utvonalak.html#sugo_kep">Szeremlei-Sugó</a>
-                <a class="kis_link" href="utvonalak.html#tapcsatorna_kep">Ferenc-Tápcsatorna</a>
-                <a class="kis_link" href="utvonalak.html#porboly_kep">Pörbölyi Titán</a>
+                <a class="kis_link" href="utvonalak.html#tura_utvonal_2025_baja">Vén-Duna</a>
+                <a class="kis_link" href="utvonalak.html#tura_utvonal_2025_ersekcsanad">Rezéti-Duna</a>
+                <a class="kis_link" href="utvonalak.html#tura_utvonal_2025_baja_2">Szeremlei-Sugó</a>
+                <a class="kis_link" href="utvonalak.html#tura_utvonal_2025_baja_3">Ferenc-Tápcsatorna</a>
+                <a class="kis_link" href="utvonalak.html#tura_utvonal_2025_porboly">Pörbölyi Titán</a>
             </div>
             <div>
-                    <a class="nagy_link" href="kulonleges_turak.html">Különleges túrák</a>
-                    <a class="kis_link" href="kulonleges_turak.html#vadleso_kep">Vadleső túra</a>
-                    <a class="kis_link" href="kulonleges_turak.html#szarvas_kep">Szarvasbőgést hallgató túra</a>
-                    <a class="kis_link" href="kulonleges_turak.html#gasztro">Gasztro-, vízi túra</a>
-                </div>
-                <a class="nagy_link" href="mit_erdemes_hozni.html">Mit érdemes hozni ?</a>
+                <a class="nagy_link" href="kulonleges_turak.html">Különleges túrák</a>
+                <a class="kis_link" href="kulonleges_turak.html#vadleso_tura_2025">Vadleső túra</a>
+                <a class="kis_link" href="kulonleges_turak.html#szarvasboges_tura_2025">Szarvasbőgést hallgató túra</a>
+                <a class="kis_link" href="kulonleges_turak.html#gasztro_tura_2025">Gasztro-, vízi túra</a>
+            </div>
+            <a class="nagy_link" href="mit_erdemes_hozni.html">Mit érdemes hozni ?</a>
         </div>
 
             <div class="div4">
@@ -76,8 +80,10 @@
                         <p><a href="mailto:kedvencgemenc@gmail.com">E-mail: kedvencgemenc@gmail.com</a></p>
                     </div>
                 </div>
+        <!-- Kiket várunk egyedi rész-->           
 
                 <div id="kiket_kep"  class="osszefogo">
+                    <img src="images/kiket_varunk.jpg" alt="Ki jöhet vizi túrára" />
                     <div class="szoveg">
                             <h1>Mindenkit szeretettel várunk :-)</h1>
                             Mivel a túrák megkezdése előtt átfogó tanítást tarunk,

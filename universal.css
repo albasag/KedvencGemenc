@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
-
+/* Universal CSS for the website */
 .div1{
     background-image: url(images/udvozlo.png);
     background-repeat: no-repeat;
@@ -34,16 +33,35 @@
 /* Header */
 
 header{
-    background-image: url(images/udvozlo.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    position: relative;
     width: 100%;
     height: 400px;
+    overflow: hidden;
     padding: 0;
     margin: 0;
-
 }
+
+
+.header-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+.header-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    text-align: center;
+    width: 100%;
+}
+
 
 .navTarto{
     float: left;
@@ -124,7 +142,7 @@ aside h2{
 
 .headerLeft{
     float: left;
-    margin: 10px 10px 0px 0px;
+    margin: 20px;
     padding: 10px;
     background-color: #034F4Bcc;
 }
@@ -153,9 +171,12 @@ aside h2{
     z-index:5;
 }
 
-.osszefogo > img{
+.osszefogo > img {
     position: absolute;
     width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 .szoveg{
@@ -267,109 +288,6 @@ a, a:link {
     text-align: center;
 }
 
-#ven-duna{
-    background-image: url(images/gemencrol.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-}
-
-#turavezeto{
-    background-image: url(images/magunkrol.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-}
-
-#ven_kep{
-    background-image: url(images/venduna.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-}
-
-#rezeti_kep{
-    background-image: url(images/rezeti.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-}
-
-#sugo_kep{
-    background-image: url(images/sugovica.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-}
-
-#tapcsatorna_kep{
-    background-image: url(images/tapcsatorna.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-}
-
-#porboly_kep{
-    background-image: url(images/titan.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-}
-
-#vadleso_kep{
-    background-image: url(images/vadleso.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-}
-
-#szarvas_kep{
-    background-image: url(images/szarvas.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-}
-
-#gasztro{
-    background-image: url(images/halaszle.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-}
-
-#kiket_kep {
-    background-image: url(images/kiket_varunk.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-}
-
-#naptej_kep {
-    background-image: url(images/naptej.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-}
-
-#riaszto_kep{
-    background-image: url(images/riaszto.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-}
 
 /* Footer */
 footer{
@@ -417,7 +335,7 @@ footer p{
     height: 4px;
     width: 100%;
     background: #fff;
-    margin: 5px 0;
+    margin: 3px 0;
     border-radius: 2px;
     display: block;
     transition: 0.3s;
