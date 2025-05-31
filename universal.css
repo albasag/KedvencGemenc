@@ -280,10 +280,8 @@ footer{
     background: linear-gradient(145deg, rgba(4,138,129,1) 0%, rgba(0,83,77,1) 100%);
 }
 
-footer p{
-    line-height: 0px;
-    text-align: center;
-    font-size: 30px;
+footer p{    
+    text-align: center;    
     color: white;
     margin: 5% 0;
 }
@@ -308,6 +306,7 @@ footer p{
     border-radius: 25px; /* Makes the button rounded */
     cursor: pointer;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3); /* Box shadow */
+    color: white;
 }
 
 .telefon_button:hover {
