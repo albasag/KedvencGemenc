@@ -35,7 +35,7 @@ header{
     float: left;
     margin: 20px;
     padding: 10px;
-    background-color: #034F4Bcc;
+    background-color: #048A81cc;
 }
 
 .header-image {
@@ -64,7 +64,7 @@ header{
     padding: 17px 25px;
     width: 12vw;
     height: 0.1vh;
-    background-color: #034F4Bcc;
+    background-color: #048A81cc;
     border: 1px solid #ffffff;
 }
 
@@ -151,7 +151,7 @@ aside h2{
 
 .osszefogo > div {
     margin-bottom: auto;
-    margin-left: 50%;
+
     padding: 25px;
     z-index:5;
 }
